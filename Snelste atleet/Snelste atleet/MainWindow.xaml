@@ -1,0 +1,21 @@
+﻿<Window x:Class="Snelste_atleet.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Snelste_atleet"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="closebutton" Content="Afsluiten" HorizontalAlignment="Left" Margin="393,323,0,0" VerticalAlignment="Top" Height="27" Width="87" Click="closebutton_Click"/>
+        <Button x:Name="erasebutton" Content="Wissen" HorizontalAlignment="Left" Margin="393,276,0,0" VerticalAlignment="Top" Height="27" Width="87" Click="erasebutton_Click"/>
+        <Button x:Name="fastButton" Content="Snelste atleet" HorizontalAlignment="Left" Margin="393,229,0,0" VerticalAlignment="Top" Height="27" Width="87" Click="fastButton_Click"/>
+        <Button x:Name="newButton" Content="Nieuw" HorizontalAlignment="Left" Margin="393,182,0,0" VerticalAlignment="Top" Height="27" Width="87" Click="newButton_Click"/>
+        <Label Content="Naam atleet" HorizontalAlignment="Left" Margin="69,49,0,0" VerticalAlignment="Top"/>
+        <Label Content="Aantal seconden:" HorizontalAlignment="Left" Margin="69,105,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="timeTextBox" HorizontalAlignment="Left" Margin="174,109,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="nameTextBox" HorizontalAlignment="Left" Margin="174,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="resultTextBox" HorizontalAlignment="Left" Margin="69,182,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="281" Height="168" IsEnabled="False" Background="LightGray"/>
+
+    </Grid>
+</Window>
